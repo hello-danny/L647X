@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+### 1. Информация по драйверам L64XX
+>![](/assets/images/L6470-L6472-L6474-chart.png)
+*Рис.1 Группировка драйверов по ST*
 
-You can use the [editor on GitHub](https://github.com/hello-danny/L647X/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+>![](/assets/images/L6472-74-82-84-Current-control-difference.png)
+*Рис.2 Отличия L64XX:*
+*- L6470: управление по напряжению*
+*- L6472: управление по току с упреждением (?)*
+*- L6474: управление по току, без упреждения*
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 2. Девелоперские платы с драйверами L64XX
 
-### Markdown
+>![](/assets/images/Eval-Softvare-Boards-Setup.png)
+Рис.3  Cуществующие девелоперские платы для L64XX
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### 2.1 Расширения для Nucleo без встроенного МК (X-NUCLEO-IHMXX)
+- X-NUCLEO-IHM02A1 2хL6470, до 4 плат стопкой
+- c L6472 платы расширения для Nucleo нет
+- X-NUCLEO-IHM01A1 1хL6474, до 3 плат стопкой
 
-```markdown
-Syntax highlighted code block
+>![](/assets/images/X-NUCLEO-IHM02A1-pic.png)
+Рис. Двухдрайверная X-NUCLEO-IHM02A1 L6470
 
-# Header 1
-## Header 2
-### Header 3
+>![](/assets/images/hucleo-L647X-hats.png)
+*Рис.4 Существующие платы для Nucleo на этих драйверах*
 
-- Bulleted
-- List
+#### 2.2 Тестовые драйверные платы с МК (EVAL64XX-DISC)
+- EVAL6470H-DISC c STM32F105RBT6
+- EVAL6472H-DISC c STM32F105RBT6
+- c L6474 тестовая плата снята с производства
 
-1. Numbered
-2. List
+>![](/assets/images/L6472-Discovery-board.png)
+*Рис.5 EVAL6472H-DISC L6472H драйверная плата с STM32F105RBT6*
 
-**Bold** and _Italic_ and `Code` text
+#### 2.3 Раздельные комплекты интерфейсной и драйверной тестовых плат (EVAL64XX и STEVAL)
+- EVAL6470H/PD
+- EVAL6472H/PD
+- EVAL6474H/PD
 
-[Link](url) and ![Image](src)
-```
+>![](/assets/images/STEVAL-PCC009V2-interface-board.png)
+*Рис.6 STEVAL-PCC009V2 с STM32F103RBT6 интерфейсная плата для EVAL64XX*
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+>![](/assets/images/EVAL6472PD-driver-board.png)
+*Рис.7 EVAL6472PD драйверная плата*
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hello-danny/L647X/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 3. Информация по МК для драйверов L64XX
+>![](/assets/images/st-key-selection-mcu.png)
+*Рис.8 Выбор STM по типам двигателей (как это связано?)*
 
-### Support or Contact
+>![](/assets/images/nucleo-L64XX-hats-compatibility.png)
+Рис.9 Совместимость плат расширения с Nucleo
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 4. OEM код для МК
+##### STM32F103RBT6
+- EVAL6470H/PD + STEVAL-PCC009V2 firmware **STSW-SPIN004**
+- EVAL6472H/PD + STEVAL-PCC009V2 firmware **STSW-SPIN004**
+- EVAL6474H/PD + STEVAL-PCC009V2 firmware **X-CUBE-SPN1**
+
+##### STM32 Nucleo F4, F0, L0
+- X-NUCLEO-IHM02A1 2хL6470 firmware **X-CUBE-SPN2**
+- X-NUCLEO-IHM01A1 1хL6474 firmware **X-CUBE-SPN1**
+
+##### STM32F105RBT6
+- EVAL6470H-DISC firmware **STSW-SPIN004**, **STSW-SPINDISC01**
+- EVAL6472H-DISC firmware **STSW-SPIN004**, **STSW-SPINDISC01**
