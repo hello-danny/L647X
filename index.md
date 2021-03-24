@@ -53,14 +53,14 @@
 
 ### 4. OEM код для МК
 ##### STM32F103RBT6
-- EVAL6470H/PD + STEVAL-PCC009V2 firmware **STSW-SPIN004**
-- EVAL6472H/PD + STEVAL-PCC009V2 firmware **STSW-SPIN004**
-- EVAL6474H/PD + STEVAL-PCC009V2 firmware **X-CUBE-SPN1**
+- EVAL6470H/PD + STEVAL-PCC009V2 firmware [STSW-SPIN004](/assets/en.stsw-spin004.zip)
+- EVAL6472H/PD + STEVAL-PCC009V2 firmware [STSW-SPIN004](/assets/en.stsw-spin004.zip)
+- EVAL6474H/PD + STEVAL-PCC009V2 firmware [X-CUBE-SPN1](/assets/en.x-cube-spn1.zip)
 
 ##### STM32 Nucleo F4, F0, L0
-- X-NUCLEO-IHM02A1 2хL6470 firmware **X-CUBE-SPN2**
-- X-NUCLEO-IHM01A1 1хL6474 firmware **X-CUBE-SPN1**
+- X-NUCLEO-IHM02A1 2хL6470 firmware [X-CUBE-SPN2](/assets/en.X-CUBE-SPN2_firmware.zip)
+- X-NUCLEO-IHM01A1 1хL6474 firmware [X-CUBE-SPN1](/assets/en.x-cube-spn1.zip)
 
 ##### STM32F105RBT6
-- EVAL6470H-DISC firmware **STSW-SPIN004**, **STSW-SPINDISC01**
-- EVAL6472H-DISC firmware **STSW-SPIN004**, **STSW-SPINDISC01**
+- EVAL6470H-DISC firmware [STSW-SPIN004](/assets/en.stsw-spin004.zip), [STSW-SPINDISC01](/assets/en.STSW-SPINDISC01.zip)
+- EVAL6472H-DISC firmware [STSW-SPIN004](/assets/en.stsw-spin004.zip), [STSW-SPINDISC01](/assets/en.STSW-SPINDISC01.zip)
