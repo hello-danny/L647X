@@ -19,10 +19,10 @@
 - X-NUCLEO-IHM01A1 1хL6474, до 3 плат стопкой
 
 >![](/assets/images/X-NUCLEO-IHM02A1-pic.png)
-Рис. Двухдрайверная X-NUCLEO-IHM02A1 L6470
+Рис.4 Двухдрайверная X-NUCLEO-IHM02A1 L6470
 
 >![](/assets/images/hucleo-L647X-hats.png)
-*Рис.4 Существующие платы для Nucleo на этих драйверах*
+*Рис.5 Существующие платы для Nucleo на этих драйверах*
 
 #### 2.2 Тестовые драйверные платы с МК (EVAL64XX-DISC)
 - EVAL6470H-DISC c STM32F105RBT6
@@ -30,7 +30,7 @@
 - c L6474 тестовая плата снята с производства
 
 >![](/assets/images/L6472-Discovery-board.png)
-*Рис.5 EVAL6472H-DISC L6472H драйверная плата с STM32F105RBT6*
+*Рис.6 EVAL6472H-DISC L6472H драйверная плата с STM32F105RBT6*
 
 #### 2.3 Раздельные комплекты интерфейсной и драйверной тестовых плат (EVAL64XX и STEVAL)
 - EVAL6470H/PD
@@ -38,18 +38,18 @@
 - EVAL6474H/PD
 
 >![](/assets/images/STEVAL-PCC009V2-interface-board.png)
-*Рис.6 STEVAL-PCC009V2 с STM32F103RBT6 интерфейсная плата для EVAL64XX*
+*Рис.7 STEVAL-PCC009V2 с STM32F103RBT6 интерфейсная плата для EVAL64XX*
 
 >![](/assets/images/EVAL6472PD-driver-board.png)
-*Рис.7 EVAL6472PD драйверная плата*
+*Рис.8 EVAL6472PD драйверная плата*
 
 
 ### 3. Информация по МК для драйверов L64XX
 >![](/assets/images/st-key-selection-mcu.png)
-*Рис.8 Выбор STM по типам двигателей (как это связано?)*
+*Рис.9 Выбор STM по типам двигателей (как это связано?)*
 
 >![](/assets/images/nucleo-L64XX-hats-compatibility.png)
-Рис.9 Совместимость плат расширения с Nucleo
+Рис.10 Совместимость плат расширения с Nucleo
 
 ### 4. OEM код для МК
 ##### STM32F103RBT6
